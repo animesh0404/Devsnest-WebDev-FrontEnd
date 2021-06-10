@@ -1,0 +1,15 @@
+#letter {
+  margin: 1.5rem auto;
+  width: 80%;
+  padding: 0 5%;
+  font-size: 1.2rem;
+  font-family: serif;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid black;
+  background: rgb(243, 236, 172);
+}
+
+address {
+  font-style: normal;
+}
