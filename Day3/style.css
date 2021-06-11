@@ -30,9 +30,11 @@ legend p {
 
 .left {
   border-right: 2px solid black;
+  width: 45%;
   padding: 0 20px;
 }
 
 .right {
+  width: 55%;
   padding: 0 20px;
 }
