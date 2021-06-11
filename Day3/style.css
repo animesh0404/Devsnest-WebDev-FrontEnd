@@ -1,20 +1,28 @@
+:root {
+  --heading-text: #597f9d;
+  --primary-text: #547c9a;
+}
+
 body {
   margin: 0;
   padding: 0;
+  color: var(--primary-text);
 }
 
 .container {
   height: 94vh;
   margin: 2px 10%;
   display: flex;
+  border-style: solid;
+  border-color: var(--primary-text);
 }
 
 legend {
   margin: 0 auto;
   padding: 0 50px;
   font-family: Arial, Helvetica, sans-serif;
-  /* border: 1px solid red; */
   text-align: center;
+  color: var(--heading-text);
 }
 
 legend h2 {
@@ -29,7 +37,7 @@ legend p {
 }
 
 .left {
-  border-right: 2px solid black;
+  border-right: 2px solid var(--primary-text);
   width: 45%;
   padding: 0 20px;
 }
