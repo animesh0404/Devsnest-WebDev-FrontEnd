@@ -1,6 +1,7 @@
 :root {
   --heading-text: #597f9d;
   --primary-text: #547c9a;
+  --secondary-text: #263564;
 }
 
 body {
@@ -34,6 +35,10 @@ legend h2 {
 legend p {
   margin-top: 0;
   font-size: 18px;
+}
+
+.box {
+  color: var(--secondary-text);
 }
 
 .left {
