@@ -12,10 +12,11 @@ body {
 
 .container {
   height: 94vh;
-  margin: 2px 10%;
+  margin: 0 auto;
   display: flex;
   border-style: solid;
   border-color: var(--primary-text);
+  width: 40%;
 }
 
 legend {
@@ -24,6 +25,26 @@ legend {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   color: var(--heading-text);
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    height: 94vh;
+    margin: 2px auto;
+    display: flex;
+    border-style: solid;
+    border-color: var(--primary-text);
+    /* background: royalblue; */
+    width: 75%;
+  }
+
+  legend {
+    margin: 0 auto;
+    padding: 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: var(--heading-text);
+  }
 }
 
 legend h2 {
@@ -42,12 +63,13 @@ legend p {
 }
 
 .left {
-  border-right: 2px solid var(--primary-text);
   width: 45%;
   padding: 0 20px;
 }
 
 .right {
+  border-left: 2px solid var(--primary-text);
   width: 55%;
   padding: 0 20px;
+  height: 95%;
 }
